@@ -3,7 +3,9 @@ import { useState } from 'react';
 function Home() {
     return (
     <div>
-        <h1>Home</h1>
+        <h2>Meu amor, Maria Miguelina Pereira Avelino Valeriano</h2>
+        <h1>Te amo Muito!</h1>
+        <div>contador abaixo você adiciona mais amor </div>
         <Contador />
     </div>
     )
