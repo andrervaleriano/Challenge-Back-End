@@ -1,12 +1,12 @@
 //https://challenge-back-end.vercel.app
 import Link from 'next/link';
-
+import React from 'react'
 function Sobre() {
     return (
     <div>
         <h2>Sobre</h2>
         <Link href="/">
-        <a>Acessar pagina Home</a>
+        Acessar pagina Home
         </Link>
     </div>
     )
