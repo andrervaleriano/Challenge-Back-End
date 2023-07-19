@@ -1,12 +1,12 @@
 //https://challenge-back-end.vercel.app
 import Link from 'next/link';
 
-function Home() {
+function Sobre() {
     return (
     <div>
-        <h2>Home</h2>
-        <Link href="/sobre">
-        <a>Acessar pagina Sobre</a>
+        <h2>Sobre</h2>
+        <Link href="/">
+        <a>Acessar pagina Home</a>
         </Link>
     </div>
     )
@@ -14,4 +14,4 @@ function Home() {
 
 
 
-export default Home
+export default Sobre
